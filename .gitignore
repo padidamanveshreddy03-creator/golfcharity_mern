@@ -1,0 +1,30 @@
+node_modules
+.next
+.turbo
+out
+dist
+coverage
+
+# Environment files
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# Secrets / certs
+*.pem
+*.key
+*.crt

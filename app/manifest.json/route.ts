@@ -1,0 +1,21 @@
+import { NextResponse } from "next/server";
+
+export function GET() {
+  return NextResponse.json({
+    name: "Golf Charity",
+    short_name: "Golf Charity",
+    description:
+      "Track golf scores, join monthly draws, and support charities.",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#0f172a",
+    theme_color: "#16a34a",
+    icons: [
+      {
+        src: "/icon.svg",
+        sizes: "any",
+        type: "image/svg+xml",
+      },
+    ],
+  });
+}
